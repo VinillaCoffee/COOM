@@ -18,14 +18,17 @@ $ pip install COOM
 ```
 
 Alternatively, to install COOM from source:
+
 1. Clone the repository
 ```bash
 $ git clone https://github.com/hyintell/COOM
 ```
+
 2. Navigate into the repository
 ```bash
 $ cd COOM
 ```
+
 3. Install COOM from source with pip
 ```bash 
 $ pip install .
@@ -90,7 +93,7 @@ the layout of the map remain the same across tasks, whereas we modify the enviro
 1) Changing the textures of the surrounding walls, ceiling and floor 
 2) Varying the size, shape and type of enemies 
 3) Randomizing the view height of the agent, and 
-4) Adding objects to the environment which act as obstacles, blocking the agent’s movement.
+4) Adding objects to the environment which act as obstacles, blocking the agent's movement.
 
 #### Tasks in the Cross-Domain 8 (CD8) sequence
 ![Default](assets/images/sequences/CD8_sequence.png)

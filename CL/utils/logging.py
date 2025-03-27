@@ -377,7 +377,7 @@ class WandBLogger:
                 job_type=args.wandb_job_type,
                 tags=args.wandb_tags,
                 resume=False,
-                settings=wandb.Settings(start_method='fork'),
+                settings=wandb.Settings(start_method='spawn'),
             )
 
         logging.info('Initializing WandB...')
