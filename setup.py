@@ -2,15 +2,16 @@ from setuptools import find_packages, setup
 
 # Required dependencies
 coom_requirements = [
-    "vizdoom",
+    "vizdoom==1.2.1", #for py38
     "opencv-python",
-    "scipy==1.11.4",
+    #"scipy==1.11.4",
+    "scipy",
     "gymnasium==0.28.1"
 ]
 
 cl_requirements = [
-    "tensorflow==2.11",
-    "tensorflow-probability==0.19",
+    "tensorflow==2.10",
+    "tensorflow-probability==0.18",
     "wandb",
 ]
 
