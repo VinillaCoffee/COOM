@@ -1,4 +1,10 @@
 import argparse
+import os
+import sys
+
+# 将项目根目录添加到Python的搜索路径中
+sys.path.insert(0, os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
+
 from datetime import datetime
 from enum import Enum
 from pathlib import Path
